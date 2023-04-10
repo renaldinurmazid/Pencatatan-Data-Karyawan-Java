@@ -1,0 +1,8 @@
+pencatatan\data\karyawan\App.class
+pencatatan\data\karyawan\entity\Biodata.class
+pencatatan\data\karyawan\repository\BiodataRepository.class
+pencatatan\data\karyawan\util\DatabaseUtil.class
+pencatatan\data\karyawan\repository\impl\BiodataRepositoryImpl.class
+pencatatan\data\karyawan\util\InputUtil.class
+pencatatan\data\karyawan\service\BiodataService.class
+pencatatan\data\karyawan\service\impl\BiodataServiceImpl.class
