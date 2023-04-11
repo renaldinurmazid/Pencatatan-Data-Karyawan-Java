@@ -11,7 +11,6 @@ import pencatatan.data.karyawan.entity.User;
 import pencatatan.data.karyawan.repository.BiodataRepository;
 import pencatatan.data.karyawan.repository.impl.BiodataRepositoryImpl;
 import pencatatan.data.karyawan.util.DatabaseUtil;
-import java.awt.event.KeyEvent;
 
 public class LoginView {
     private final UserService userService;
@@ -25,10 +24,12 @@ public class LoginView {
 
     public void show() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("==========LOGIN==========");
         System.out.print("Masukan Username:");
         String username = scanner.nextLine();
         System.out.print("Password:");
         String password = scanner.nextLine();   
+        System.out.println("=========================");
         User user = userService.login(username, password);
         if (user != null) {
             System.out.println("======================================================================");
